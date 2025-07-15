@@ -1,0 +1,108 @@
+    /* ----------- Estilos Básicos ----------- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, main, footer {
+      padding: 20px;
+      margin: 10px;
+      border: 2px solid #ccc;
+    }
+
+    header {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    main {
+      background-color: #e9ecef;
+    }
+
+    footer {
+      background-color: #dee2e6;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      text-decoration: underline;
+    }
+
+    .destaque {
+      font-style: italic;
+      background-color: #f0f0ff;
+      padding: 5px;
+    }
+
+    #importante {
+      border-top: 4px solid red;
+      padding-top: 10px;
+    }
+
+    /* ----------- Galeria com Grid + Flex ----------- */
+    .galeria-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+
+    .galeria-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .galeria-grid figure {
+      text-align: center;
+      margin: 0;
+    }
+
+    .galeria-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .galeria-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .galeria-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ----------- Menu Hamburger ----------- */
+    .nav-desktop {
+      display: flex;
+      gap: 10px;
+    }
+
+    .menu-hamburger {
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      .nav-desktop {
+        display: none;
+      }
+
+      .menu-hamburger {
+        display: block;
+        margin: 10px 0;
+      }
+
+      #menu-mobile a {
+        display: block;
+        margin: 5px 0;
+      }
+    }

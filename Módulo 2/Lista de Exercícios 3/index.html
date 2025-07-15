@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Completão - Exercício Web</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Bem-vindo ao Super Site</h1>
+    <p>Este projeto foi feito para praticar todos os fundamentos do desenvolvimento web básico.</p>
+  </header>
+
+  <!-- Navegação -->
+  <nav class="nav-desktop">
+    <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+    <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+    <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+  </nav>
+
+  <!-- Menu hamburger -->
+  <div class="menu-hamburger">
+    <button onclick="toggleMenu()">☰ Menu</button>
+    <div id="menu-mobile" style="display: none;">
+      <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+      <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+      <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+    </div>
+  </div>
+
+  <!-- Conteúdo Principal -->
+  <main>
+
+    <!-- Missão -->
+    <section>
+      <h2>Missão</h2>
+      <p class="destaque">Capacitar pessoas a construírem interfaces web incríveis com conhecimento, boas práticas e café na veia!</p>
+    </section>
+
+    <!-- Visão -->
+    <section>
+      <h2>Visão</h2>
+      <p id="importante">Tornar-se referência no ensino e aplicação de desenvolvimento web, levando acessibilidade e inovação para todos.</p>
+    </section>
+
+    <!-- Hobbies -->
+    <section>
+      <h2>Meus Hobbies</h2>
+      <ul>
+        <li>Estudar IA</li>
+        <li>Jogar videogame</li>
+        <li>Ler ficção científica</li>
+        <li>Explorar astronomia</li>
+        <li>Ouvir música instrumental</li>
+      </ul>
+    </section>
+
+    <!-- Receita -->
+    <section>
+      <h2>Receita de Café Passado</h2>
+      <ol>
+        <li>Ferva a água</li>
+        <li>Coloque o filtro no suporte</li>
+        <li>Adicione o pó de café</li>
+        <li>Despeje a água devagar</li>
+        <li>Aproveite o aroma e sirva-se</li>
+      </ol>
+    </section>
+
+    <!-- Formulário -->
+    <section>
+      <h2>Formulário de Feedback</h2>
+      <form>
+        <label>Nome:<br><input type="text" name="nome" required></label><br><br>
+        <label>Email:<br><input type="email" name="email" required></label><br><br>
+        <label>Endereço Completo:<br><input type="text" name="endereco" required></label><br><br>
+        <label>Tipo de Feedback:<br>
+          <select name="tipo">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="elogio">Elogio</option>
+            <option value="critica">Crítica</option>
+          </select>
+        </label><br><br>
+        <label>Feedback:<br>
+          <textarea name="mensagem" rows="5" cols="40" required></textarea>
+        </label><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Galeria -->
+    <section>
+      <h2>Galeria de Imagens</h2>
+      <div class="galeria-container">
+        <div class="galeria-grid">
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 1"><figcaption>Imagem 1</figcaption></figure>
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 2"><figcaption>Imagem 2</figcaption></figure>
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 3"><figcaption>Imagem 3</figcaption></figure>
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 4"><figcaption>Imagem 4</figcaption></figure>
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 5"><figcaption>Imagem 5</figcaption></figure>
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 6"><figcaption>Imagem 6</figcaption></figure>
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 7"><figcaption>Imagem 7</figcaption></figure>
+          <figure><img src="https://via.placeholder.com/200" alt="Imagem 8"><figcaption>Imagem 8</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Todos os direitos reservados | Criado com ♥ por Fábio</p>
+  </footer>
+
+  <!-- Script do menu hamburger -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menu-mobile");
+      menu.style.display = (menu.style.display === "block") ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
