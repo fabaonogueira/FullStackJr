@@ -1,4 +1,4 @@
-# Página de Perfil Pessoal - Rafaela Góes
+# Página de Perfil Pessoal - Fábio Nogueira
 
 Este projeto é uma página web pessoal desenvolvida com **HTML5 semântico** e **CSS responsivo**, com o objetivo de apresentar o perfil profissional de **Rafaela Góes**, desenvolvedora de 27 anos, de forma clara, moderna e adaptável a diferentes dispositivos.
 
@@ -52,10 +52,20 @@ O layout foi planejado para se adaptar a diferentes dispositivos, garantindo boa
 
 ---
 
-## 🚀 Status do Projeto
-
-Em desenvolvimento — Primeira versão básica criada seguindo o padrão proposto no desafio.
+### 🛡️ Licença
+Este projeto está licenciado sob a MIT License — sinta-se livre para usar, melhorar e contribuir.
 
 ---
 
-## Para vizualizar o projeto, clicar com o botão direito no perfil.html e clicar na primeira opção!
+<!-- Início da seção "Contato" -->
+<h2>🌐 Contate-me: </h2>
+<div>
+  <p>Developed by <b>Fábio Nogueira</b></p>
+</div>
+<p>
+<a href="https://www.linkedin.com/in/faanogueira/" target="_blank"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" target="_blank" width="80"></a>
+<a href="https://github.com/faanogueira" target="_blank"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" target="_blank" width="80"></a>
+<a href="https://api.whatsapp.com/send?phone=5571983937557" target="_blank"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" target="_blank" width="80"></a>
+<a href="mailto:faanogueira@gmail.com"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" target="_blank" width="80"></a> 
+</p>
+<!-- Fim da seção "Contato" -->
