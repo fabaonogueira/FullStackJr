@@ -58,6 +58,30 @@ Este exercício está dividido em três seções principais:
 
 ---
 
+### 📚 Exercícios Diversos em JavaScript
+
+Local: [`exercicios-diversos.js`](./exercicios-diversos.js)
+
+Abaixo está a lista completa de desafios implementados neste projeto:
+
+1.  **Verificação de Par ou Ímpar:** Checa se um número fornecido é par ou ímpar.
+2.  **Classificação de Idade:** Categoriza uma pessoa como criança, adolescente, adulto ou idoso.
+3.  **Classificação de Nota:** Converte uma nota numérica em um conceito (A, B, C, etc.).
+4.  **Menu Interativo:** Demonstra o uso da estrutura `switch-case` para criar um menu de opções.
+5.  **Cálculo de IMC:** Calcula o Índice de Massa Corporal e fornece a classificação correspondente.
+6.  **Classificação de Triângulo:** Determina se um triângulo é equilátero, isósceles ou escaleno.
+7.  **Custo de Maçãs:** Calcula o valor de uma compra de maçãs com preços variáveis por quantidade.
+8.  **Ordenação de Números:** Coloca dois números em ordem crescente.
+9.  **Contagem Regressiva:** Exibe uma contagem de 10 a 1.
+10. **Repetição de Número:** Imprime um número na tela 10 vezes.
+11. **Soma de 5 Números:** Solicita 5 números ao usuário e exibe a soma total.
+12. **Tabuada:** Gera a tabuada de um número escolhido pelo usuário.
+13. **Média Dinâmica:** Calcula a média de vários números até que o valor 0 seja inserido.
+14. **Cálculo de Fatorial:** Calcula o fatorial de um número.
+15. **Sequência de Fibonacci:** Exibe os 10 primeiros termos da sequência de Fibonacci.
+
+---
+
 ## ⚙️ Como Executar os Arquivos Localmente
 
 ### 🔧 Pré-requisitos
