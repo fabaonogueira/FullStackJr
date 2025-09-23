@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* (opcional) vars para usar em classes arbitrárias */
+:root {
+  --bg:#ffffff; --fg:#0f172a; --muted:#475569; --card:#f8fafc; --border:#e2e8f0;
+  --accent:#2563eb; --accent-fg:#ffffff; --ring:#7c3aed;
+}
+:root.dark {
+  --bg:#0b1020; --fg:#e5e7eb; --muted:#a1a1aa; --card:#0f172a; --border:#1f2937;
+  --accent:#60a5fa; --accent-fg:#0b1020; --ring:#a78bfa;
+}
