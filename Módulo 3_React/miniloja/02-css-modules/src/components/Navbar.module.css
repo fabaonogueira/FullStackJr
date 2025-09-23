@@ -1,0 +1,17 @@
+.bar {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: saturate(180%) blur(6px);
+}
+.row {
+  display: flex; align-items: center; gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+}
+.logo { font-weight: 700; letter-spacing: .2px; color: var(--fg); }
+.spacer { flex: 1; }
+.badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 28px; height: 28px; padding: 0 8px; border-radius: 999px;
+  background: var(--accent); color: var(--accent-fg); font-size: 12px; font-weight: 700;
+}
