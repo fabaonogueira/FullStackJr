@@ -14,7 +14,7 @@ A jornada abrange desde os fundamentos da programação até aplicações mais c
 | 01 | 🟨 Exercício 2 | Controle de fluxo, funções, recursividade e manipulação de dados | [exercicio2.js](./exercicio2.js) |
 | 03 | 🎬 Projeto 1 | Aplicativo de Busca de Filmes com React | [buscar_filmes](https://github.com/fabaonogueira/FullStackJr/tree/main/M%C3%B3dulo%203_React/buscar_filmes) |
 | 03 | 🛍️ Projeto 2 | Mini Loja em React – 4 versões de estilização | [miniloja](https://github.com/fabaonogueira/FullStackJr/tree/main/M%C3%B3dulo%203_React/miniloja) |
-| 04 | ☕ Exercício Java | Programação Orientada a Objetos, Collections e APIs | [modulo-04-java](./modulo-04-java) |
+| 04 | ☕ Exercício Java | Programação Orientada a Objetos, Collections e APIs | [modulo-04-java](./Modulo%204%20Java) |
 
 ---
 
